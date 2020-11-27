@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Res_1k_1%_100mW_0603
+#
+DEF Res_1k_1%_100mW_0603 R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Res_1k_1%_100mW_0603" 950 200 50 H I C CNN
+F2 "JLCSMT:R_0603_1608Metric" 950 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1k" -100 0 50 V V C CNN "DisplayValue"
+F5 "Uniroyal Elec" 900 0 50 H I C CNN "Manufacturer"
+F6 "0603WAF1001T5E" 900 -100 50 H I C CNN "MPN"
+F7 "C21190" 900 -200 50 H I C CNN "LcscPN"
+F8 "Basic Part" 900 -300 50 H I C CNN "PartType"
+F9 "DigiKey" 900 -400 50 H I C CNN "AltVendor"
+F10 "ERJ-3EKF1001V" 900 -500 50 H I C CNN "AltVendorPN"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
